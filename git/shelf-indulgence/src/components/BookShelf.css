@@ -1,0 +1,7 @@
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap; /* Wrap books to the next row */
+  gap: 20px; /* Space between books */
+  justify-content: center; /* Center books on page */
+  padding: 20px;
+}

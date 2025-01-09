@@ -1,0 +1,33 @@
+.book-card {
+  width: 150px; /* Fixed width for card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.book-cover-container {
+  position: relative;
+}
+
+.book-cover {
+  width: 100%; /* Adjust size to fit in card */
+  cursor: pointer; /* Clickable image */
+}
+
+.book-info {
+  display: none; /* Hide book info at first */
+}
+
+.book-cover-container:hover .book-info {
+  display: block; /* Show book info on hover */
+}
+
+
+.status-dropdown {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
